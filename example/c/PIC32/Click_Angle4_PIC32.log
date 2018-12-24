@@ -1,0 +1,28 @@
+0	1	mikroCPIC32.exe -MSF -DBG -pP32MX795F512L -RA -C -DL -SSA -EBASE 0x9FC01000 -INTDEF MV_SRS7_IS32 -O11111115 -fo80 -N"C:\Users\katarina.perendic\Desktop\Angle_4_Click\example\c\PIC32\Click_Angle4_PIC32.mcp32" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC32\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC32\Uses\" -SP"C:\Users\katarina.perendic\Desktop\Angle_4_Click\example\c\PIC32\" -SP"C:\Users\katarina.perendic\Desktop\Angle_4_Click\library\HAL\" -SP"C:\Users\katarina.perendic\Desktop\Angle_4_Click\library\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC32\Uses\" -IP"C:\Users\katarina.perendic\Desktop\Angle_4_Click\example\c\PIC32\" -IP"C:\Users\katarina.perendic\Desktop\Angle_4_Click\library\" -IP"C:\Users\katarina.perendic\Desktop\Angle_4_Click\library\HAL\" "Click_Angle4_PIC32.c" "__angle4_Driver.c" "__Lib_CP0.emcl" "__Lib_Math.emcl" "__Lib_MathDouble.emcl" "__Lib_System.emcl" "__Lib_SoftResetDma.emcl" "__Lib_Delays.emcl" "Click_Angle4.pld"	 
+diagnostics: 0	122	Compilation Started	P32MX795F512L.c
+diagnostics: 39364	123	Compiled Successfully	P32MX795F512L.c
+diagnostics: 0	122	Compilation Started	__Lib_Delays.c
+diagnostics: 176	123	Compiled Successfully	__Lib_Delays.c
+diagnostics: 0	122	Compilation Started	stdint.h
+error: 5	324	Undeclared identifier '_SPI_MASTER' in expression	click_angle4_config.h
+error: 6	324	Undeclared identifier '_SPI_8_BIT' in expression	click_angle4_config.h
+error: 8	324	Undeclared identifier '_SPI_SS_DISABLE' in expression	click_angle4_config.h
+error: 9	324	Undeclared identifier '_SPI_DATA_SAMPLE_MIDDLE' in expression	click_angle4_config.h
+error: 10	324	Undeclared identifier '_SPI_CLK_IDLE_HIGH' in expression	click_angle4_config.h
+error: 11	324	Undeclared identifier '_SPI_IDLE_2_ACTIVE' in expression	click_angle4_config.h
+error: 33	324	Undeclared identifier 'mikrobus_gpioInit' in expression	Click_Angle4_PIC32.c
+error: 34	324	Undeclared identifier 'mikrobus_spiInit' in expression	Click_Angle4_PIC32.c
+error: 35	324	Undeclared identifier 'mikrobus_logInit' in expression	Click_Angle4_PIC32.c
+error: 36	324	Undeclared identifier 'mikrobus_logWrite' in expression	Click_Angle4_PIC32.c
+error: 42	324	Undeclared identifier 'angle4_spiDriverInit' in expression	Click_Angle4_PIC32.c
+error: 42	324	Undeclared identifier '_MIKROBUS1_GPIO' in expression	Click_Angle4_PIC32.c
+error: 42	317	Operator '' is not applicable to these operands ''	Click_Angle4_PIC32.c
+error: 42	324	Undeclared identifier '_MIKROBUS1_SPI' in expression	Click_Angle4_PIC32.c
+error: 42	402	; expected, but ')' found	Click_Angle4_PIC32.c
+error: 42	424	'}' expected ';' found	Click_Angle4_PIC32.c
+error: 58	312	Internal error ''	Click_Angle4_PIC32.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 251	123	Compiled Successfully	__angle4_Driver.c
+hint: 323	1164	Variable 'tmp' has been eliminated by optimizer	__angle4_Driver.c
+hint: 34	1164	Variable 'tmp' has been eliminated by optimizer	__angle4_Driver.c
+error: 0	102	Finished (with errors): 10 jul 2018, 10:37:54	Click_Angle4_PIC32.mcp32
